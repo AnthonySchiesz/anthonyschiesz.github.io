@@ -14,7 +14,7 @@ In the 'Porfolio Website.zip' folder, there are two text documents and one folde
 3. Again, within the 'landing folder, create another file and name it 'style.css'.
 4. Finally, create a in the 'landing' folder and name it 'images'.
 
-![file structure](/desktop/filestructure.png)
+![file structure]((https://octodex.github.com/images/filestructure.png)
 
 ###Running documentation locally
 1. Open the github index.html file and copy all code to the your recently created index.html. Save.  
