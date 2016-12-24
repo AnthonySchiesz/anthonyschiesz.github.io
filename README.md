@@ -13,8 +13,8 @@ In the 'Porfolio Website.zip' folder, there are two text documents and one folde
 2. Within the landing folder, create a new file and name it 'index.html'.
 3. Again, within the 'landing folder, create another file and name it 'style.css'.
 4. Finally, create a in the 'landing' folder and name it 'images'.
-(/desktop/filestructure.png)
 
+![file structure](/desktop/filestructure.png)
 
 ###Running documentation locally
 1. Open the github index.html file and copy all code to the your recently created index.html. Save.  
