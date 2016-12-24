@@ -20,7 +20,7 @@ In the 'Porfolio Website.zip' folder, there are two text documents and one folde
 3. Once all saved, open the 'landing' folder where saved and run by clicking on the 'index.html'.
 4. Tadaa!
 
-####Versioning
+###Versioning
 Bootstrap is maintained under the Semantic Versioning guidelines.
 
 ##Creators
