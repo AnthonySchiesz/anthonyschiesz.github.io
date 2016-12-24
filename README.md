@@ -5,7 +5,7 @@ My Portfolio website debuts current and future projects creadted by me.
 -Open your IDE
 
 ##What's included
-In the 'Porfolio Website.zip' folder, there are two text documents and one folder ('images'). These provide the structure and fucntionality for the website.
+In the 'Porfolio Website.zip' folder, there are two text documents and one folder named _**images**_. These provide the structure and fucntionality for the website.
 
 ##Setup
 ###Replicate the file organization of files on github page.
