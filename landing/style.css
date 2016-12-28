@@ -2,17 +2,17 @@
 body {
 	background: #696969;
 	font-size: 25px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	margin: 0;
 }
 h1 {
-	font: 700 72px 'Raleway', sans-serif;
+	font: 700 72px "Raleway", sans-serif;
 	color: white;
 	text-transform: uppercase;
 	text-align: center;
 }
 h2 {
-	font: lighter 18px 'Raleway', sans-serif;
+	font: lighter 18px "Raleway", sans-serif;
 	color: white;
 }
 a{
@@ -51,9 +51,6 @@ a:hover {
 	padding: 25px;
 	text-align: center;
 }
-.project {
-	list-style-type: none;
-}
 .project h1 {
 	color: #7fa4ab;
 }
@@ -67,20 +64,20 @@ a:hover {
 	text-align: center;
 	font-size: 15px;
 }
-#footer {
+footer {
 	background: rgb(30, 30, 30);
 	color: white;
 	font-size: 15px;
 	padding: 20px;
 	font-weight: lighter;
 }
-#footer li {
+footer li {
     list-style-type: none;
 }
-#footer a {
+footer a {
 	font-size: 20px;
 	color: #696969;
 }
-#footer a:hover {
+footer a:hover {
 	color: white;
 }
