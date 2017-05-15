@@ -1,60 +1,66 @@
 /* Fonts and Colors */
-body {
+body, html {
 	background: #696969;
 	font-size: 25px;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Roboto", sans-serif;
 	margin: 0;
+	padding: 0;
 }
-h1 {
-	font: 700 72px "Raleway", sans-serif;
-	color: white;
-	text-transform: uppercase;
-	text-align: center;
-}
-h2 {
-	font: lighter 18px "Raleway", sans-serif;
-	color: white;
-}
-a{
-	text-decoration: none;
-	color:  blue;
-}
-a:hover {
-	text-decoration: none;
-	color: purple;
-}
+
+
 /* Custom design */
-#banner {
+.splash {
 	background-image: url(https://unsplash.it/5616/3744?image=743);
 	background-size: cover;
-	height: 600px;
-	padding: 150px 0;
-	text-align: center;
-	color: white;
-	text-shadow: 1px 1px 5px #0e0e0e;
+	height: 100%;
+	width: 100%;
+
+	/* Parallax scroll effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-#banner h1 {
+.banner h1 {
 	text-align: center;
+	padding-top: 250px;
+	font: 700 72px "Roboto", sans-serif;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 5px #0e0e0e;
 	color: white;
 	font-size: 60px;
+	letter-spacing: 0.03em;
 }
-#banner p {
+.banner span {
+	display: inline-block;
+	padding: 0.2em 0.5em;
+	border: 10px solid white;
+	box-shadow: inset 1px 1px 5px #0e0e0e;
+}
+.banner p {
+	text-align: center;
 	color: white;
-	font-size: 30px;
-	font-weight: lighter;
-}
-.logo {
-	float: left;
-	margin: 30px 0 0 30px;
+	font-size: 24px;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1;
+	text-shadow: 1px 1px 5px #0e0e0e;
 }
 .project {
 	padding: 25px;
 	text-align: center;
 }
 .project h1 {
+	font: 700 72px "Roboto", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 1px 1px 5px #0e0e0e;
 	color: #7fa4ab;
 }
 .project h2 {
+	font: lighter 18px "Roboto", sans-serif;
+	color: white;
+	font-weight: normal;
 	color: black;
 	text-align: center;
 	font-size: 35px;
@@ -64,8 +70,66 @@ a:hover {
 	text-align: center;
 	font-size: 15px;
 }
+.about {
+	padding: 25px;
+	text-align: center;
+	background-color: white;
+}
+.about h1 {
+	font: 700 72px "Roboto", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 1px 1px 5px #0e0e0e;
+	color: #696969;
+}
+.about p {
+	color: black;
+	text-align: center;
+	font-size: 15px;
+}
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+		-moz-user-select: none;
+			-ms-user-select: none;
+				user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	padding: 10px 16px;
+}
+.btn-sm {
+	font-size: 14px;
+	line-height: 1.33;
+	border-radius: 6px;
+}
+.btn-success {
+	color: #fff;
+	background-color: #5cb85c;
+	border-color: #5ea15e;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+	color: #fff;
+	background-color: #5ea15e;
+	border-color: #5ea15e;
+	outline: 0 none;
+	}
 footer {
-	background: rgb(30, 30, 30);
+	background: white;
 	color: white;
 	font-size: 15px;
 	padding: 20px;
@@ -76,8 +140,9 @@ footer li {
 }
 footer a {
 	font-size: 20px;
-	color: #696969;
+	color: #d9d9d8;
 }
 footer a:hover {
-	color: white;
+	font-size: 20px;
+	color: #7fa4ab;
 }
