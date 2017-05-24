@@ -24,7 +24,7 @@ In the 'Porfolio Website.zip' folder, there are two text documents and one folde
 ### Versioning
 Bootstrap is maintained under the Semantic Versioning guidelines.
 
-##Creators
+## Creators
 Anthony Schiesz
 
 #### Copyright and license
