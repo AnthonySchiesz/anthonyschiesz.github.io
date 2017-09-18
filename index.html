@@ -3,84 +3,99 @@
 	<head>
 		<meta charset="utf-8">
 		<!--Responsive-->
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<title>Anthony Schiesz</title>
-
-		<link rel="icon" sizes="192x192" src="images/logo.png">
-		<!--Google API Fonts-->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:300,400,700|Roboto:300,400,700" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
 		<!--Boostrap-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<!--Google API Fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:300,400,700|Roboto:300,400,700" rel="stylesheet">
 		<!--Icons (footer)-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-		<link href="style.css" rel="stylesheet">
 
+
+		<title>Anthony Schiesz | Portfolio</title>
 
 	</head>
+	
 	<body>
-
-
-		<div class="splash">
-			<div class="banner">
-				<h1><span>Anthony Schiesz</span></h1>
-				<!--<a><img src="{% static 'images/name.png' %}"></a>-->
-				<p>Web Developer</p>
-				<p><i class="fa fa-angle-down" href="#projects" aria-hidden="true"></i></p>
+		<header>
+			<div class="intro">
+				<h1 class="knockout-text">ANTHONY SCHIESZ</h1>
+				<h2>web developer</h2>
 			</div>
-		</div>
+		</header>
 
-
-
-		<div class="project">
-			<h1>Projects</h1>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 col-md-4 project">
-					<!--<img class="img-responsive" src="images/appify.png" alt="picture description">-->
-					<h2>Movie Trailer Viewer</h2>
-					<p>This is my first project in web development and with the Python framework. This site displays some of my favortie movies, their posters and trailers.</p>
-					</br>
-					<button class="btn btn-success btn-sm" disabled="disabled"><i class="fa fa-desktop fa-fw"></i>  VIEW SITE</button> <a class="btn btn-secondary btn-sm" role="submit" href="https://github.com/AnthonySchiesz/movie-trailer-website"><i class="fa fa-github fa-fw"></i> GITHUB</a>
-		
+		<div class="wrapper">
+			<section class="about">
+				<div class="about-content">
+					<h3>Hi, I'm Anthony</h3>
+					<p>A web developer from New York with a passion for all things tech. My days are filled with learning and applying new ideas. I primarily use Python in my work, but can easily learn other frameworks and languages.</p>
 				</div>
-				<div class="col-sm-6 col-md-4 project">
-					<!--<img class="img-responsive" src="images/sunflower.png" alt="picture description">-->
-					<h2>Blog</h2>
-					<p>Following similar safety protocols for user authentication, this multi-user blog allows a user to create an account and edit profile details while posting, editing posts, commenting on or liking other user's content.</p>
-					<a class="btn btn-success btn-sm" href="#"><i class="fa fa-desktop fa-fw"></i>  VIEW SITE</a> <a class="btn btn-secondary btn-sm" role="button" href="https://github.com/AnthonySchiesz/multi-user-blog"><i class="fa fa-github fa-fw"></i> GITHUB</a>
-				</div>
-				<div class="col-sm-6 col-md-4 project">
-					<!--<img class="img-responsive" src="images/bokeh.png" alt="picture description">-->
-					<h2>History Map</h2>
-					<p>A simple web app built to quickly explore New York's hidden historical events and where they happened. Users can filter through events by selecting which century they are most interested in then click on that marked site to read more of the event that took place.</p>
-					<a class="btn btn-success btn-sm" href="#"><i class="fa fa-desktop fa-fw"></i>  VIEW SITE</a> <a class="btn btn-secondary btn-sm" class="btn btn-secondary btn-sm" href="https://github.com/AnthonySchiesz/HistoryMap"><i class="fa fa-github fa-fw"></i> GITHUB</a>
-				</div>
-			</div>
+			</section>
 		</div>
 
-		<div class="about">
-			<h1>About Me</h1>
-			<p>My name is Anthony and I am a current student of web development. I love technology and the limitless potential that software has in building towards your vision.</p>
-		</div>
-
-		<footer>
-			<ul class="list-inline">
-				<li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> 
-				<li><a href=""><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
-				<li><a href=""><i class="fa fa-github" aria-hidden="true"></i></a></li>
-				<li><a href=""><i class="fa fa-google" aria-hidden="true"></i></a></li>
+		<div class="resume">
+			<ul class="link">
+				<li><a class="btn btn-secondary" href="{% static 'img/AnthonyJSchieszResume.pdf' %}" download><i class="fa fa-file-pdf-o"></i> Resume</a></li>
+				<li><a class="social" href="https://www.linkedin.com/in/anthony-schiesz/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 			</ul>
-			<p>All content copyright 2017</p>
-		</footer>
-
-		<script src="https://ajax.googleapis.com/ajax/jquery/1.11.1/jquery.min.js"></script>
+		</div>
 
 
-		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<div class="wrapper">
+			<div class="work">
+				<h2>MY WORK</h2>
+
+				<section>
+					<div class="container">
+						<div class="card">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="card-img-bottom-1">
+										<!--<img src="..." alt="Card image cap">-->
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="card-block">
+										<h4 class="card-title">History Map</h4>
+										<p class="card-text">A simple web app built to quickly explore New York's hidden historical events and where they happened. Users can filter through events by selecting which century they are most interested in then click on that marked site to read more of the event that took place.</p>
+										<h6 class="text-muted">Technology</h6>
+										<p class="card-text">Tech stack used.</p>
+										<a class="btn btn-outline-primary col-sm-4" href="https://anthonyschiesz.github.io/historymap/"><i class="fa fa-eye"></i> View Live</a>
+										<a class="btn btn-secondary" href="https://github.com/AnthonySchiesz/historymap"><i class="fa fa-github"></i> GitHub</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<div class="container">
+						<div class="card">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="card-block">
+										<h4 class="card-title">Blog</h4>
+										<p class="card-text">Following similar safety protocols for user authentication, this multi-user blog allows a user to create an account and edit profile details while posting, editing posts, commenting on or liking other user's content.</p>
+										<h6 class="text-muted">Technology</h6>
+										<p class="card-text">Tech stack used.</p>
+										<button class="btn btn-outline-primary col-sm-4" disabled><i class="fa fa-eye"></i> View Live</button>
+										<!-- <a class="btn btn-outline-primary col-sm-4" href="https://anthonyschiesz.github.io/historymap/"><i class="fa fa-eye"></i> View Live</a> -->
+										<a class="btn btn-secondary" href="https://github.com/AnthonySchiesz/multi-user-blog"><i class="fa fa-github"></i> GitHub</a>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="card-img-bottom-2">
+										<!--<img src="..." alt="Card image cap">-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			</div>
+		</div>
 	</body>
 </html>
